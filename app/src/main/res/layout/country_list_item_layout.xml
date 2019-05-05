@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/country_list_item_card_view_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        app:cardUseCompatPadding="true"
+        app:contentPadding="5dp"
+        android:layout_margin="16dp"
+        >
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/country_list_item_country_name_view_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="32sp"
+            android:fontFamily="@font/alfa_slab_one"
+            android:textColor="@android:color/black"
+            />
+    </com.google.android.material.card.MaterialCardView>
+</LinearLayout>

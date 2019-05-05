@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">PracticeMVVM</string>
+    <string name="no_contact_found">No Contact Found!</string>
+</resources>
